@@ -1,6 +1,6 @@
-# Environment Setup 🌱
+# 🌱⚙️  Environment Setup
 
-A tool for automating development environment setup across different projects.
+Automating development environment setup
 
 <p align="center">
   <img src=".github/overview.png" alt="Environment Setup Pipeline Overview" width="800"/>
