@@ -64,12 +64,6 @@ poetry run python scripts/full_pipeline.py -cn python
 
 For all configuration options, see [conf/defaults.yaml](env_setup_utils/scripts/conf/defaults.yaml).
 
-<!-- TODO: @owner - Please add:
-1. Example output/results section
-2. Link to the HuggingFace trajectories repository
-3. Contribution guidelines if this is open source
-4. License information -->
-
 ## Documentation
 
 For detailed documentation on each component:
@@ -78,3 +72,8 @@ For detailed documentation on each component:
 - [Environment Setup Utils](env_setup_utils/README.md)
 - [Evaluation](evaluation/README.md)
 - [Inference](inference/README.md)
+
+## Implementation details
+- [Agents and Prompts](inference/src/agents)
+- [Dockerfiles](env_setup_utils/scripts)
+- [Deterministic and Evaluation Scripts](evaluation/scripts)
